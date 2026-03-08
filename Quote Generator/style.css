@@ -1,0 +1,65 @@
+body{
+margin:0;
+padding:0;
+font-family:Arial, Helvetica, sans-serif;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+transition:0.4s;
+background:#f2a7a7;
+}
+
+/* DARK MODE FULL SCREEN */
+
+body.dark{
+background:#121212;
+color:white;
+}
+
+/* CONTAINER */
+
+.container{
+text-align:center;
+background:#2c2c2c;
+padding:40px;
+border-radius:15px;
+width:500px;
+box-shadow:0 10px 25px rgba(0,0,0,0.3);
+}
+
+/* LIGHT MODE CARD */
+
+body:not(.dark) .container{
+background:white;
+color:black;
+}
+
+/* BUTTONS */
+
+button{
+padding:10px 20px;
+border:none;
+border-radius:8px;
+background:#4da3ff;
+color:white;
+font-size:16px;
+cursor:pointer;
+margin:5px;
+}
+
+button:hover{
+background:#1f7ae0;
+}
+
+/* QUOTE */
+
+#quote{
+font-size:20px;
+margin-top:20px;
+}
+
+#author{
+margin-top:10px;
+font-weight:bold;
+}
